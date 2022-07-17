@@ -10,8 +10,9 @@ This week’s Challenge requires you to create an application that an employee c
 * Javascript
 
 ## Screen Shots of Application
-![Screen Shot Two](assets/images/screen-shot-two-for-readme.png?raw=true "Screen Shot Two")
-![Screen Shot One](assets/images/screen-shot-one-for-readme.png?raw=true "Screen Shot One")
+![Screen Shot Two](assets/images/screen-shot-one-for-readme.png?raw=true "Screen Shot Two")
+![Screen Shot One](assets/images/screen-shot-two-for-readme.png?raw=true "Screen Shot One")
+![Screen Shot One](assets/images/screen-shot-three-for-readme.png?raw=true "Screen Shot One")
 
 ## Website
 https://gordonorr.github.io/Challenge-03-Javascript-Password-Generator/
