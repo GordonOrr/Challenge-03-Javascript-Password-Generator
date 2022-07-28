@@ -70,8 +70,8 @@ var generatePassword = function() {
 
   // if no character type selected, alert user and run 'confirmCharacterTypes' function again
   if (!confirmLowercase && !confirmUppercase && !confirmNumeric && !confirmSpecial) {
-    selectedCharacters = alert("You must choose a criteria!");
-    confirmCharacterTypes();
+    selectedCharacters = alert("You must choose a criteria! Please try again.");
+    return generatePassword();
   }
   // series of 'else if' statements to build 'selectedCharacters' from selected characters types
   // 'else if' for 4 positive selections - lowercase, uppercase, numeric, special
@@ -149,10 +149,11 @@ var generatePassword = function() {
     selectedCharacters = special;
     // alert(selectedCharacters);
   }
-  // 'else' the process failed unexpectedly. Alert user and run 'confirmCharacterTypes' again.
+  // 'else' the process failed unexpectedly. Alert user and run 'generatePassword' again.
   else {
     alert("The process failed. Please start again.")
-    confirmCharacterTypes(); 
+    return generatePassword();
+
   };
 
   // password variable is an array placeholder for user generated amount of length
